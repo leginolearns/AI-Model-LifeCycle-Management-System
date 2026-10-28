@@ -1,0 +1,31 @@
+{
+  "version_id": 2,
+  "algorithm": "Random Forest",
+  "source_csv": "C:\\Users\\Om\\Downloads\\AIModelLifecycleManagement\\sample_data\\student_performance.csv",
+  "target_column": "result",
+  "task": "classification",
+  "rows": 250,
+  "train_rows": 200,
+  "test_rows": 50,
+  "features": [
+    "study_hours",
+    "attendance",
+    "assignment_score",
+    "previous_score"
+  ],
+  "target": "result",
+  "accuracy": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "confusion_matrix": [
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      46
+    ]
+  ]
+}
